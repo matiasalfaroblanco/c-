@@ -4,5 +4,7 @@ namespace Modulo1.Ejercicio1
     {
         public const string TARJETA_CREDITO = "CREDITO";
         public const string CONTADO = "CONTADO";
+        public const string VALOR;
+
     }
 }

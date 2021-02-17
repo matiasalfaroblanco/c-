@@ -4,6 +4,7 @@ namespace Modulo1.Ejercicio1
 {
     public class CourseStatus
     {
+        // se declara publica para poder acceder desde otra classe.
         public const string UNPUBLISH_STATUS = "unpublish";
         public const string PUBLISHED_STATUS = "published";
         public const string CLOSED_STATUS = "closed";
@@ -16,6 +17,7 @@ namespace Modulo1.Ejercicio1
 
         public void Update(string title, string status)
         {
+            // Correcto. Se puede acceder a la constante sin instanciar el objeto.
             if (status == CourseStatus.CLOSED_STATUS) {
                 throw new System.Exception("Course cannot be update");
             }

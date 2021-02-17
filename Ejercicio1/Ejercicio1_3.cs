@@ -7,9 +7,11 @@ namespace Modulo1.Ejercicio1
     {
         public static readonly int[] DELETED_USER_IDS = {22, 34, 1000, 1402};
 
-        public static bool CheckUserHasBeenDeleted(int userId)
+        public static bool CheckUserHasBeenDeleted(int userId);
         {
+            
             int value = Array.Find(User.DELETED_USER_IDS, (element) => {
+                
                 return (element == userId) ? true : false;
             });
 

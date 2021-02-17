@@ -1,5 +1,6 @@
 using System;
 
+// No necesita heredar nada de la classe Person.
 
 namespace Modulo1.Ejercicio10
 {
